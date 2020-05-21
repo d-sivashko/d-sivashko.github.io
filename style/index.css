@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+.notpayed {
+    background-color: #e52929;
+    color: white;
+}
+
+.payed {
+    background-color: #4ce529;
+    color: white;
+}
+
+tbody {
+    text-align: center;
+}
+
+td, th {
+    border: 2px outset black;
+}
+
+p {
+    width: 1000px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.mem_h {
+    font-size: 3rem;
+    background: -webkit-linear-gradient(90deg, rgba(132,167,255,1) 0%, rgba(255,0,198,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mem_p {
+    font-size: 1.5rem;
+    background: -webkit-linear-gradient(90deg, rgba(132,167,255,1) 0%, rgba(255,0,198,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mem_table {
+    width: 200px;
+}
+
+#mem_chb {
+    filter: grayscale(100%);
+}
+
+#mem_constrast {
+    filter: contrast(200%);
+}
+
+#mem_inv {
+    filter: invert(100%)
+}
+
+#mem_blur {
+    filter: blur(5px);
+}
